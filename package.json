@@ -1,0 +1,29 @@
+{
+  "name": "recover-dark",
+  "displayName": "Recover Dark",
+  "description": "A refreshing dark theme for VS Code",
+  "version": "1.0.0",
+  "engines": {
+    "vscode": "^1.79.0"
+  },
+  "author": {
+    "name": "Abhin Rustagi",
+    "email": "rustagi.abhin@gmail.com",
+    "url": "https://www.abhin.dev/"
+  },
+  "repository": {
+    "url": "https://www.github.com/AbhinRustagi/recover-dark"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Recover Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Recover Dark-color-theme.json"
+      }
+    ]
+  }
+}
